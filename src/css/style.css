@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Archivo";
+}
+header{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    line-height: 200%; 
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7c2bd;
+    line-height: 180%; 
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+form{
+    flex-direction: column;
+    background-image: url(../img/8129997-fundo-de-rosa-salmao-nevoeiro-ou-fumo-isolado-para-efeito-gratis-foto.jpg);
+    text-align: center;
+    padding: 8rem; 
+}
+section{
+    text-align: center;
+    justify-content: center;
+    padding: 8rem; 
+    background-color: #e7c2bd;
+    
+}
+
+@media only screen and (max-width: 532px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:"Archivo";
+    }
+    header{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: pink;
+        line-height: 200%; 
+    }
+    .container{
+        font-size: 17px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #e7c2bd;
+        line-height: 180%; 
+    }
+    img{
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        padding: 8rem;
+    }
+    form{
+        flex-direction: column;
+        background-image: url(../img/8129997-fundo-de-rosa-salmao-nevoeiro-ou-fumo-isolado-para-efeito-gratis-foto.jpg);
+        text-align: center;
+        padding: 8rem; 
+        line-height: 180%;
+        font-size: 17px;
+    }
+    section{
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+        padding: 8rem; 
+        background-color: #e7c2bd;
+    }
+}
+@media only screen and (max-width: 1028px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:"Archivo";
+    }
+    header{
+    
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: pink;
+        line-height: 200%; 
+    }
+    .container{
+        font-size: 18px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7c2bd;
+        line-height: 180%; 
+    }
+    img{
+        width: 360px;
+        height: 360px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        padding: 22rem;
+    }
+    form{
+        flex-direction: column;
+        background-image: url(../img/8129997-fundo-de-rosa-salmao-nevoeiro-ou-fumo-isolado-para-efeito-gratis-foto.jpg);
+        text-align: center;
+        padding: 8rem; 
+    }
+    section{
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+        padding: 8rem; 
+        background-color: #e7c2bd;
+    }
+}
