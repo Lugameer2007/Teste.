@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação de um Produto</title>
+    <link rel="stylesheet" href="src/css/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1>Betasaudavel</h1>
+            <p>Aqui fazemos tudo de melhor por você</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <figure>
+                <img src="src/css/img/Máscara_facial-removebg-preview.png" alt="Máscara facial">
+                <p>R$ 150</p>
+                <button>COMPRE JÁ!</button>
+                <p class="descri">
+                    Essa máscara de beterraba é uma novidade no mercado. A beterraba tem muitos nutrientes que fazem bem
+                    para a pele e para o resto do corpo, como vitaminas do complexo B, vitamina C, potássio, sódio, fósforo,
+                    cálcio, zinco, ferro e manganês. Sendo também rica em fibras e pigmentos naturais.
+                </p>
+            </figure>
+        </div>
+    </main>
+
+    <form action="atividadeRecuperacao.php" method="POST">
+
+        <h1>Formulário de contato</h1>
+        
+        <input type="text" id="nome" name="nome" placeholder="Nome">
+        <span id="erro_nome"></span>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <span id="erro_email"></span>
+        <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+        <span id="erro_msg"></span>
+        <button type="submit" id="Enviar">Enviar</button> 
+    </form>
+
+    <section>
+        Nossos produtos são de excelente qualidade, feitos para proporcionar a melhor experiência possível.
+        Adaptam-se a todos os tipos de pele com cuidado e eficiência. Trabalhamos para que a pele de nossos
+        clientes fique mais macia e saudável. Usamos apenas ingredientes naturais como frutas e legumes.
+    </section>
+</body>
+</html>
